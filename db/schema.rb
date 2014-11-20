@@ -11,7 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141115101134) do
+ActiveRecord::Schema.define(version: 20141118092903) do
+
+  create_table "partners", force: true do |t|
+    t.string   "cname"
+    t.string   "ctype"
+    t.string   "crno"
+    t.string   "cradd"
+    t.string   "cmadd"
+    t.string   "clogo"
+    t.string   "cphone"
+    t.string   "string"
+    t.string   "cmobile"
+    t.integer  "partnerid"
+    t.string   "cemail"
+    t.string   "cmap"
+    t.date     "cdatestart"
+    t.date     "cdateend"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "todo_lists", force: true do |t|
     t.string   "title"

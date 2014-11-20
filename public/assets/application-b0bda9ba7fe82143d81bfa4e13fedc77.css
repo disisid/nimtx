@@ -1,0 +1,5 @@
+@import 'stylesheets/flatty/theme-colors';
+@import 'stylesheets/flatty/bootstrap/bootstrap';
+@import 'stylesheets/flatty/plugins/plugins';
+@import 'stylesheets/flatty/jquery/jquery_ui';
+@import 'stylesheets/flatty/light-theme';

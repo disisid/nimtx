@@ -1,4 +1,15 @@
 Rails.application.routes.draw do
+  # get 'partners/index'
+
+  # get 'partners/show'
+
+  # get 'partners/new'
+
+  # get 'partners/edit'
+
+  # get 'partners/delete'
+
+  resources :partners
   resources :todo_lists
 
   # The priority is based upon order of creation: first created -> highest priority.
